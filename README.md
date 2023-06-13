@@ -1,5 +1,7 @@
 # UniPoll
 
+The official implementation of the paper "UniPoll: A Unified Social Media Poll Generation Framework via Multi-Objective Optimization" ([arXiv](https://arxiv.org/abs/2306.06851)). 
+
 The code will be made available upon acceptance of the paper.
 
 ## Abstract
