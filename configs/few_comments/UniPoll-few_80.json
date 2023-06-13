@@ -6,7 +6,7 @@
         "valid": [["main_task", 0.8]],
         "test": [["main_task", 0.8]]},
     "metric_for_best_model": "eval_mean_rouge1",
-    "model_name_or_path": "imxly/t5-pegasus",
+    "model_name_or_path": "./checkpoints/imxly/t5-pegasus",
 
     "max_source_length": 1024,
     "max_target_length": 128,

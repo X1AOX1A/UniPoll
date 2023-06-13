@@ -188,7 +188,8 @@ def map2digit(reference, summary):
 
     
 from pythonrouge.pythonrouge import Pythonrouge
-# 这个安装包可以成功安装，但有个小bug，要按照error提示那里handle一下
+# This package can be successfully installed, but there is a small bug
+# You may need to handle it according to the error prompt there
 # https://github.com/tagucci/pythonrouge
 def calculate_rouge(summaries: List[str], references: List[str], prefix):
     references = [[[r]] for r in references]
