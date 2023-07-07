@@ -50,12 +50,20 @@ python finetuner.py configs/path_to_config_file.json
 
 - Please ref to [config.py](./config.py) for more details about the configuration.
 
+## Reproduce the Main Results
+
 If you want to reproduce the main results in the paper, please run the following commands:
 
 ```bash
 export CUDA_VISIBLE_DEVICES=0
 python finetuner.py configs/main_ablations/UniPoll.json
 ```
+
+- After the training is finished, you can find the results in the `outputs/UniPoll-t5` folder. 
+
+### Results, Outputs and Checkpoint
+
+- Here we provide the **model outputs, results and checkpoint** after executing the above commands. You can download them from [here](https://drive.google.com/drive/folders/1hTO5N3NfMNi5AoEPxGhH3KNQ8olWuwUV?usp=sharing).
 
 ## Results
 
