@@ -1,6 +1,5 @@
 {
     "seed": 42,
-
     "run_name": "A-t5",
     "schemas": {
         "train": [["subtask_2", -1]],

@@ -28,7 +28,7 @@ conda activate UniPoll
 pip install git+https://github.com/tagucci/pythonrouge.git
 ```
 
-## WeiboPoll Dataset
+## WeiboPolls Dataset
 
 The original data can be downloaded from [this repo](https://github.com/polyusmart/Poll-Question-Generation/tree/main/data/Weibo), you can also find them in [data/WeiboPolls/origin](./data/WeiboPolls/origin).
 
@@ -63,7 +63,7 @@ This main results of poll generation are shown in the table below:
 
 | Model | ROUGE-1 | ROUGE-L | BLEU-1 | BLEU-3 | 
 | :---: | :---: | :---: | :---: | :---: |
-| UniPoll | **47.92** | **45.02** | **39.96** | **22.78** |
+| **UniPoll** | **47.92** | **45.02** | **39.96** | **22.78** |
 | T5 | 45.33 | 42.69 | 37.34 | 21.06 |
 | DUAL DEC | 34.98 | 32.84 | 29.41 | 8.84 |
 | TOPIC | 33.60 | 31.59 | 28.55 | 8.46 |
