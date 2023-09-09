@@ -1,5 +1,7 @@
 # UniPoll: : A Unified Social Media Poll Generation Framework via Multi-Objective Optimization
 
+<div style='display:flex; gap: 0.25rem; '><a href='https://uni-poll.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a><a href='https://huggingface.co/spaces/X1A/UniPoll'><img src='https://img.shields.io/badge/Huggingface-Demo-yellow'></a><a href='https://github.com/X1AOX1A/UniPoll'><img src='https://img.shields.io/badge/Github-Code-blue'></a><a href='https://arxiv.org/abs/2306.06851'><img src='https://img.shields.io/badge/Paper-PDF-red'></a></div>
+
 The official implementation of the paper [UniPoll: A Unified Social Media Poll Generation Framework via Multi-Objective Optimization](https://arxiv.org/abs/2306.06851). 
 
 This repository aims to automate the generation of polls from social media posts using advanced natural language generation (NLG) techniques. The goal is to ensure that even passive browsing users have their perspectives considered in text analytics methods.
@@ -38,6 +40,8 @@ Download the Chinese T5 checkpoint from [here](https://huggingface.co/./checkpoi
 
 ## Experiments
 
+### Training
+
 To reproduce the results in the paper, please run the following commands:
 
 ```bash
@@ -49,6 +53,12 @@ python finetuner.py configs/path_to_config_file.json
 - The processed data and results will be saved in the `outputs/run_name` folder.
 
 - Please ref to [config.py](./config.py) for more details about the configuration.
+
+### Inference
+
+```
+python inference.py
+```
 
 ## Reproduce the Main Results
 
@@ -78,6 +88,12 @@ This main results of poll generation are shown in the table below:
 | COPY | 32.58 | 30.61 | 25.82 | 5.58 |
 | BASE | 23.15 | 21.62 | 20.87 | 2.67 |
 
+## Demo
+
+```shell
+pip install gradio
+python app.py --model_path "./outputs/UniPoll-t5/best_model" --device "cpu" 
+```
 
 ## Case Study
 
