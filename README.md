@@ -36,7 +36,7 @@ The original data can be downloaded from [this repo](https://github.com/polyusma
 
 ## Prepare the T5 checkpoint
 
-Download the Chinese T5 checkpoint from [here](https://huggingface.co/./checkpoints/imxly/t5-pegasus/tree/main) and put them under the `checkpoints/imxly/t5-pegasus` folder.
+Download the Chinese T5 checkpoint from [here](https://huggingface.co/imxly/t5-pegasus/tree/main) and put them under the `checkpoints/imxly/t5-pegasus` folder.
 
 ## Experiments
 
