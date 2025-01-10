@@ -104,14 +104,16 @@ python app.py --model_path "./outputs/UniPoll-t5/best_model" --device "cpu"
 ## Citation
 
 ```
-@misc{li2023unipoll,
-      title={UniPoll: A Unified Social Media Poll Generation Framework via Multi-Objective Optimization}, 
-      author={Yixia Li and Rong Xiang and Yanlin Song and Jing Li},
-      year={2023},
-      eprint={2306.06851},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
+@ARTICLE{10829745,
+  author={Li, Yixia and Xiang, Rong and Song, Yanlin and Li, Jing},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={UniPoll: A Unified Social Media Poll Generation Framework via Multiobjective Optimization}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Social networking (online);Natural language generation;Context modeling;Training;Noise measurement;Optimization;Media;Electronic mail;Transformers;Synthetic data;Deep learning;natural language generation (NLG);question–answer generation (QAG);social media analysis},
+  doi={10.1109/TNNLS.2024.3512868}}
 ```
 
 ## Contact Information
